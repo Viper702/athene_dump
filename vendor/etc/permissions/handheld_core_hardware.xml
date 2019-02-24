@@ -65,6 +65,10 @@
     <!-- Feature to specify if the device support managed users. -->
     <feature name="android.software.managed_users" notLowRam="true" />
 
+    <!-- BEGIN Motorola, nafonso 11/28/2018, IKSWO-116992 -->
+    <feature name="android.software.companion_device_setup" />
+    <!-- END Motorola IKSWO-116992 -->
+
     <!-- devices with GPS must include android.hardware.location.gps.xml -->
     <!-- devices with an autofocus camera and/or flash must include either
          android.hardware.camera.autofocus.xml or

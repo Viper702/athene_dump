@@ -3118,10 +3118,10 @@
          protocol="IPV4V6"
          roaming_protocol="IP"
     />
-    <apn carrier="T-Mobile MMS"
+    <apn carrier="HOS"
          mcc="232"
          mnc="03"
-         apn="gprsmms"
+         apn="hos"
          type="mms"
          authtype="1"
          user="t-mobile"
@@ -24599,7 +24599,7 @@
          mcc="732"
          mnc="103"
          apn="web.colombiamovil.com.co"
-         type="default,dun"
+         type="default"
          protocol="IPV4V6"
          roaming_protocol="IPV4V6"
          authtype="1"
@@ -25205,12 +25205,6 @@
          type="default,supl"
     />
 
-    <apn carrier="Cosmote Wireless Internet"
-         mcc="202"
-         mnc="01"
-         apn=""
-         type="ia"
-    />
     <apn carrier="Vf Internet"
          mcc="202"
          mnc="05"
@@ -25315,18 +25309,6 @@
          mmsc="http://mmsc1.uscc.net/mmsc/MMS"
          mtu="1422"
     />
-    <apn carrier="T-Mobile Internet"
-         mcc="204"
-         mnc="16"
-         apn=""
-         type="ia"
-    />
-    <apn carrier="Orange NL Internet"
-         mcc="204"
-         mnc="20"
-         apn=""
-         type="ia"
-    />
     <apn carrier="Px Internet"
          mcc="206"
          mnc="01"
@@ -25368,12 +25350,6 @@
     <apn carrier="Yoigo Internet"
          mcc="214"
          mnc="04"
-         apn=""
-         type="ia"
-    />
-    <apn carrier="T-Mobile"
-         mcc="219"
-         mnc="01"
          apn=""
          type="ia"
     />
@@ -25420,12 +25396,6 @@
          apn="orangeinternet"
          type="default"
     />
-    <apn carrier="T-Mobile Internet"
-         mcc="232"
-         mnc="03"
-         apn=""
-         type="ia"
-    />
     <apn carrier="Tele2 4G"
          mcc="240"
          mnc="07"
@@ -25436,12 +25406,6 @@
          mmsc="http://mmsc.tele2.se/"
          mmsproxy="mmsproxy.tele2.se"
          mmsport="8080"
-    />
-    <apn carrier="Internet"
-         mcc="260"
-         mnc="02"
-         apn=""
-         type="ia"
     />
     <apn carrier="Telekom Internet"
          mcc="262"
@@ -25495,6 +25459,13 @@
          mnc="01"
          apn=""
          type="ia"
+    />
+    <apn carrier="T-Mobile Internet"
+         mcc="297"
+         mnc="02"
+         apn=""
+         type="ia"
+         user_visible="false"
     />
     <apn carrier="Rogers IMS"
          mcc="302"
